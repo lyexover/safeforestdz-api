@@ -10,7 +10,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # À ajuster en prod !
-    allow_methods=["POST"],
+    allow_methods=["GET", "POST", "OPTIONS"]
 )
 
 @app.post("/predict")
