@@ -1,0 +1,13 @@
+# Environnement Python
+venv_fastapi/
+.env
+
+# Fichiers de cache
+__pycache__/
+*.py[cod]
+
+# Fichiers de données volumineux
+*.joblib
+*.pkl
+
+
