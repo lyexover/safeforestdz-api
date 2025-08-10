@@ -6,8 +6,5 @@ venv_fastapi/
 __pycache__/
 *.py[cod]
 
-# Fichiers de données volumineux
-*.joblib
-*.pkl
 
 
